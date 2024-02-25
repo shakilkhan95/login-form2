@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: #111;
+}
+
+.container {
+    height: 400px;
+    width: 350px;
+    background: #252525;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(0, 0, 0 ,0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #000000;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #777575;
+    padding: 10px 8px;
+    font-size: 30px;
+}
+
+.container .user, .pass {
+    width: 100%;
+    height: 40px;
+    padding: 12px 8px;
+    background-color: #111;
+    border-radius: 2px;
+    margin-top: 20px;
+    box-shadow: 0 0 2px 2px #0a0707;
+    position: relative;
+}
+
+.container input{
+    height: 100%;
+    width: 94%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #777575;
+    font-size: 16px;
+}
+
+.container .user i, .pass i {
+    color: #777575;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.container form a{
+    color: #777575;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.container form a:hover {
+    text-decoration: underline;
+}
+
+.container form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form .btn button{
+    padding: 8px 24px;
+    border-radius: 5px;
+    background-color: #111;
+    color: #777575;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 2px #000000;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn button:hover{
+    color: #111;
+    background-color: #777575;
+}
+
+.container .social-media {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.container .social-media p{
+    color: #777575;
+    font-size: 16px;
+}
+
+.container .social-media i{
+    color: #777575;
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.container .social-media .fa-facebook:hover{
+    color: #0865ff;
+}
+
+.container .social-media .fa-google:hover{
+    color: #ea4335;
+}
+
+.container .social-media .fa-twitter:hover{
+    color: #1C9BE9;
+}
+
+.container .social-media .fa-yahoo:hover{
+    color: #5320C5;
+}
+
+.register{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777575;
+}
+
+.register a{
+    color: #777575;
+}
